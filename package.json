@@ -1,0 +1,34 @@
+{
+  "name": "discs",
+  "version": "0.0.0",
+  "description": "search music metadata and ratings",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surprisetalk/discs.git"
+  },
+  "keywords": [
+    "discogs",
+    "rateyourmusic",
+    "discography",
+    "music",
+    "ratings",
+    "reviews",
+    "search"
+  ],
+  "author": "Taylor Sarrafian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/surprisetalk/discs/issues"
+  },
+  "homepage": "https://github.com/surprisetalk/discs#readme",
+  "dependencies": {
+  	"commander": "*",
+  	"inquirer": "*",
+  	"underscore": "*",
+	"disconnect": "*"
+  }
+}
